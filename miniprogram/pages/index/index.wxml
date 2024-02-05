@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="page__hd">
+    <t-swiper
+      wx:if="{{imgSrcs.length > 0}}"
+      autoplay="true"
+      duration="5000"
+      interval="500"
+      list="{{imgSrcs}}"
+    />
+  </view>
+  <view class="page__bd">
+  </view>
+</view>
